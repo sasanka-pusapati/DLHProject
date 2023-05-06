@@ -1,0 +1,639 @@
+Layer:  GRU
+Hidden unit:  128
+Embedding:  word2vec
+=============================
+Iteration number:  1
+Problem type:  mort_hosp
+__________________
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of batches seen.
+Epoch 1/100
+240/242 [============================>.] - ETA: 0s - loss: 0.2872 - acc: 0.9031
+Epoch 1: val_loss improved from inf to 0.24518, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 6s 18ms/step - loss: 0.2868 - acc: 0.9032 - val_loss: 0.2452 - val_acc: 0.9161
+Epoch 2/100
+242/242 [==============================] - ETA: 0s - loss: 0.2487 - acc: 0.9154
+Epoch 2: val_loss improved from 0.24518 to 0.23902, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 4s 17ms/step - loss: 0.2487 - acc: 0.9154 - val_loss: 0.2390 - val_acc: 0.9166
+Epoch 3/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2358 - acc: 0.9187
+Epoch 3: val_loss improved from 0.23902 to 0.23457, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 4s 16ms/step - loss: 0.2359 - acc: 0.9186 - val_loss: 0.2346 - val_acc: 0.9197
+Epoch 4/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2306 - acc: 0.9184
+Epoch 4: val_loss improved from 0.23457 to 0.23403, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 4s 18ms/step - loss: 0.2306 - acc: 0.9184 - val_loss: 0.2340 - val_acc: 0.9188
+Epoch 5/100
+240/242 [============================>.] - ETA: 0s - loss: 0.2259 - acc: 0.9207
+Epoch 5: val_loss improved from 0.23403 to 0.23306, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 4s 17ms/step - loss: 0.2262 - acc: 0.9207 - val_loss: 0.2331 - val_acc: 0.9170
+Epoch 6/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2217 - acc: 0.9219
+Epoch 6: val_loss improved from 0.23306 to 0.23238, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.2217 - acc: 0.9219 - val_loss: 0.2324 - val_acc: 0.9152
+Epoch 7/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2183 - acc: 0.9236
+Epoch 7: val_loss improved from 0.23238 to 0.23196, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 4s 17ms/step - loss: 0.2183 - acc: 0.9236 - val_loss: 0.2320 - val_acc: 0.9166
+Epoch 8/100
+240/242 [============================>.] - ETA: 0s - loss: 0.2161 - acc: 0.9233
+Epoch 8: val_loss improved from 0.23196 to 0.23094, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.2161 - acc: 0.9233 - val_loss: 0.2309 - val_acc: 0.9170
+Epoch 9/100
+242/242 [==============================] - ETA: 0s - loss: 0.2141 - acc: 0.9240
+Epoch 9: val_loss improved from 0.23094 to 0.23082, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.2141 - acc: 0.9240 - val_loss: 0.2308 - val_acc: 0.9166
+Epoch 10/100
+239/242 [============================>.] - ETA: 0s - loss: 0.2137 - acc: 0.9238
+Epoch 10: val_loss improved from 0.23082 to 0.23044, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 20ms/step - loss: 0.2132 - acc: 0.9240 - val_loss: 0.2304 - val_acc: 0.9170
+Epoch 11/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2118 - acc: 0.9244
+Epoch 11: val_loss improved from 0.23044 to 0.23036, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.2120 - acc: 0.9242 - val_loss: 0.2304 - val_acc: 0.9143
+Epoch 12/100
+240/242 [============================>.] - ETA: 0s - loss: 0.2103 - acc: 0.9253
+Epoch 12: val_loss did not improve from 0.23036
+242/242 [==============================] - 5s 19ms/step - loss: 0.2101 - acc: 0.9254 - val_loss: 0.2306 - val_acc: 0.9156
+Epoch 13/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2077 - acc: 0.9247
+Epoch 13: val_loss did not improve from 0.23036
+242/242 [==============================] - 5s 19ms/step - loss: 0.2080 - acc: 0.9247 - val_loss: 0.2311 - val_acc: 0.9161
+Epoch 14/100
+240/242 [============================>.] - ETA: 0s - loss: 0.2066 - acc: 0.9262
+Epoch 14: val_loss improved from 0.23036 to 0.23021, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.2065 - acc: 0.9262 - val_loss: 0.2302 - val_acc: 0.9161
+Epoch 15/100
+242/242 [==============================] - ETA: 0s - loss: 0.2071 - acc: 0.9255
+Epoch 15: val_loss did not improve from 0.23021
+242/242 [==============================] - 5s 19ms/step - loss: 0.2071 - acc: 0.9255 - val_loss: 0.2305 - val_acc: 0.9156
+Epoch 16/100
+239/242 [============================>.] - ETA: 0s - loss: 0.2060 - acc: 0.9267
+Epoch 16: val_loss improved from 0.23021 to 0.23018, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.2059 - acc: 0.9268 - val_loss: 0.2302 - val_acc: 0.9170
+Epoch 17/100
+240/242 [============================>.] - ETA: 0s - loss: 0.2039 - acc: 0.9250
+Epoch 17: val_loss improved from 0.23018 to 0.23012, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 20ms/step - loss: 0.2041 - acc: 0.9249 - val_loss: 0.2301 - val_acc: 0.9161
+Epoch 18/100
+240/242 [============================>.] - ETA: 0s - loss: 0.2032 - acc: 0.9275
+Epoch 18: val_loss did not improve from 0.23012
+242/242 [==============================] - 4s 18ms/step - loss: 0.2029 - acc: 0.9276 - val_loss: 0.2303 - val_acc: 0.9202
+Epoch 19/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2032 - acc: 0.9273
+Epoch 19: val_loss did not improve from 0.23012
+242/242 [==============================] - 5s 20ms/step - loss: 0.2031 - acc: 0.9273 - val_loss: 0.2302 - val_acc: 0.9170
+Epoch 20/100
+239/242 [============================>.] - ETA: 0s - loss: 0.2012 - acc: 0.9279
+Epoch 20: val_loss improved from 0.23012 to 0.23010, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 4s 18ms/step - loss: 0.2012 - acc: 0.9277 - val_loss: 0.2301 - val_acc: 0.9147
+Epoch 21/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2017 - acc: 0.9286
+Epoch 21: val_loss improved from 0.23010 to 0.23000, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.2016 - acc: 0.9286 - val_loss: 0.2300 - val_acc: 0.9161
+Epoch 22/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1998 - acc: 0.9285
+Epoch 22: val_loss improved from 0.23000 to 0.22996, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 4s 18ms/step - loss: 0.1997 - acc: 0.9286 - val_loss: 0.2300 - val_acc: 0.9166
+Epoch 23/100
+240/242 [============================>.] - ETA: 0s - loss: 0.2006 - acc: 0.9293
+Epoch 23: val_loss improved from 0.22996 to 0.22984, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.2004 - acc: 0.9294 - val_loss: 0.2298 - val_acc: 0.9143
+Epoch 24/100
+240/242 [============================>.] - ETA: 0s - loss: 0.1984 - acc: 0.9281
+Epoch 24: val_loss did not improve from 0.22984
+242/242 [==============================] - 4s 17ms/step - loss: 0.1981 - acc: 0.9284 - val_loss: 0.2300 - val_acc: 0.9170
+Epoch 25/100
+242/242 [==============================] - ETA: 0s - loss: 0.1985 - acc: 0.9282
+Epoch 25: val_loss did not improve from 0.22984
+242/242 [==============================] - 5s 19ms/step - loss: 0.1985 - acc: 0.9282 - val_loss: 0.2303 - val_acc: 0.9152
+Epoch 26/100
+240/242 [============================>.] - ETA: 0s - loss: 0.1966 - acc: 0.9298
+Epoch 26: val_loss did not improve from 0.22984
+242/242 [==============================] - 4s 17ms/step - loss: 0.1971 - acc: 0.9297 - val_loss: 0.2301 - val_acc: 0.9161
+Epoch 27/100
+239/242 [============================>.] - ETA: 0s - loss: 0.1961 - acc: 0.9299
+Epoch 27: val_loss improved from 0.22984 to 0.22975, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.1962 - acc: 0.9297 - val_loss: 0.2297 - val_acc: 0.9161
+Epoch 28/100
+240/242 [============================>.] - ETA: 0s - loss: 0.1960 - acc: 0.9296
+Epoch 28: val_loss improved from 0.22975 to 0.22970, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 4s 17ms/step - loss: 0.1963 - acc: 0.9295 - val_loss: 0.2297 - val_acc: 0.9166
+Epoch 29/100
+240/242 [============================>.] - ETA: 0s - loss: 0.1961 - acc: 0.9307
+Epoch 29: val_loss improved from 0.22970 to 0.22958, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.1962 - acc: 0.9306 - val_loss: 0.2296 - val_acc: 0.9175
+Epoch 30/100
+239/242 [============================>.] - ETA: 0s - loss: 0.1960 - acc: 0.9288
+Epoch 30: val_loss did not improve from 0.22958
+242/242 [==============================] - 4s 17ms/step - loss: 0.1958 - acc: 0.9289 - val_loss: 0.2300 - val_acc: 0.9152
+Epoch 31/100
+239/242 [============================>.] - ETA: 0s - loss: 0.1952 - acc: 0.9290
+Epoch 31: val_loss improved from 0.22958 to 0.22955, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.1946 - acc: 0.9293 - val_loss: 0.2296 - val_acc: 0.9166
+Epoch 32/100
+240/242 [============================>.] - ETA: 0s - loss: 0.1944 - acc: 0.9287
+Epoch 32: val_loss did not improve from 0.22955
+242/242 [==============================] - 4s 17ms/step - loss: 0.1941 - acc: 0.9289 - val_loss: 0.2298 - val_acc: 0.9161
+Epoch 33/100
+239/242 [============================>.] - ETA: 0s - loss: 0.1942 - acc: 0.9304
+Epoch 33: val_loss did not improve from 0.22955
+242/242 [==============================] - 5s 19ms/step - loss: 0.1939 - acc: 0.9306 - val_loss: 0.2299 - val_acc: 0.9161
+Epoch 34/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1927 - acc: 0.9304
+Epoch 34: val_loss did not improve from 0.22955
+242/242 [==============================] - 4s 18ms/step - loss: 0.1928 - acc: 0.9304 - val_loss: 0.2297 - val_acc: 0.9152
+Epoch 35/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1926 - acc: 0.9291
+Epoch 35: val_loss did not improve from 0.22955
+242/242 [==============================] - 5s 19ms/step - loss: 0.1925 - acc: 0.9292 - val_loss: 0.2296 - val_acc: 0.9161
+Epoch 36/100
+240/242 [============================>.] - ETA: 0s - loss: 0.1935 - acc: 0.9309
+Epoch 36: val_loss did not improve from 0.22955
+242/242 [==============================] - 4s 18ms/step - loss: 0.1931 - acc: 0.9310 - val_loss: 0.2297 - val_acc: 0.9152
+138/138 [==============================] - 1s 5ms/step
+0.8814059373261597 0.5819727877810379 0.9166856362394719 0.481586402266289
+Problem type:  mort_icu
+__________________
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of batches seen.
+Epoch 1/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2265 - acc: 0.9340
+Epoch 1: val_loss improved from inf to 0.17987, saving model to avg-word2vec-mort_icu-best_model.hdf5
+242/242 [==============================] - 6s 18ms/step - loss: 0.2269 - acc: 0.9339 - val_loss: 0.1799 - val_acc: 0.9430
+Epoch 2/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1818 - acc: 0.9428
+Epoch 2: val_loss improved from 0.17987 to 0.17655, saving model to avg-word2vec-mort_icu-best_model.hdf5
+242/242 [==============================] - 4s 19ms/step - loss: 0.1819 - acc: 0.9427 - val_loss: 0.1766 - val_acc: 0.9430
+Epoch 3/100
+242/242 [==============================] - ETA: 0s - loss: 0.1721 - acc: 0.9457
+Epoch 3: val_loss improved from 0.17655 to 0.17260, saving model to avg-word2vec-mort_icu-best_model.hdf5
+242/242 [==============================] - 4s 18ms/step - loss: 0.1721 - acc: 0.9457 - val_loss: 0.1726 - val_acc: 0.9425
+Epoch 4/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1659 - acc: 0.9464
+Epoch 4: val_loss improved from 0.17260 to 0.17254, saving model to avg-word2vec-mort_icu-best_model.hdf5
+242/242 [==============================] - 5s 20ms/step - loss: 0.1659 - acc: 0.9464 - val_loss: 0.1725 - val_acc: 0.9430
+Epoch 5/100
+242/242 [==============================] - ETA: 0s - loss: 0.1637 - acc: 0.9468
+Epoch 5: val_loss improved from 0.17254 to 0.17193, saving model to avg-word2vec-mort_icu-best_model.hdf5
+242/242 [==============================] - 4s 18ms/step - loss: 0.1637 - acc: 0.9468 - val_loss: 0.1719 - val_acc: 0.9435
+Epoch 6/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1579 - acc: 0.9486
+Epoch 6: val_loss improved from 0.17193 to 0.17158, saving model to avg-word2vec-mort_icu-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.1580 - acc: 0.9486 - val_loss: 0.1716 - val_acc: 0.9439
+Epoch 7/100
+242/242 [==============================] - ETA: 0s - loss: 0.1566 - acc: 0.9488
+Epoch 7: val_loss improved from 0.17158 to 0.17108, saving model to avg-word2vec-mort_icu-best_model.hdf5
+242/242 [==============================] - 4s 19ms/step - loss: 0.1566 - acc: 0.9488 - val_loss: 0.1711 - val_acc: 0.9425
+Epoch 8/100
+239/242 [============================>.] - ETA: 0s - loss: 0.1550 - acc: 0.9498
+Epoch 8: val_loss improved from 0.17108 to 0.17057, saving model to avg-word2vec-mort_icu-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.1547 - acc: 0.9499 - val_loss: 0.1706 - val_acc: 0.9421
+Epoch 9/100
+240/242 [============================>.] - ETA: 0s - loss: 0.1515 - acc: 0.9496
+Epoch 9: val_loss did not improve from 0.17057
+242/242 [==============================] - 5s 19ms/step - loss: 0.1515 - acc: 0.9495 - val_loss: 0.1711 - val_acc: 0.9421
+Epoch 10/100
+239/242 [============================>.] - ETA: 0s - loss: 0.1501 - acc: 0.9510
+Epoch 10: val_loss did not improve from 0.17057
+242/242 [==============================] - 4s 19ms/step - loss: 0.1505 - acc: 0.9506 - val_loss: 0.1706 - val_acc: 0.9439
+Epoch 11/100
+240/242 [============================>.] - ETA: 0s - loss: 0.1499 - acc: 0.9497
+Epoch 11: val_loss improved from 0.17057 to 0.17041, saving model to avg-word2vec-mort_icu-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.1497 - acc: 0.9499 - val_loss: 0.1704 - val_acc: 0.9448
+Epoch 12/100
+239/242 [============================>.] - ETA: 0s - loss: 0.1491 - acc: 0.9516
+Epoch 12: val_loss did not improve from 0.17041
+242/242 [==============================] - 4s 18ms/step - loss: 0.1490 - acc: 0.9517 - val_loss: 0.1705 - val_acc: 0.9439
+Epoch 13/100
+242/242 [==============================] - ETA: 0s - loss: 0.1480 - acc: 0.9504
+Epoch 13: val_loss improved from 0.17041 to 0.17030, saving model to avg-word2vec-mort_icu-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.1480 - acc: 0.9504 - val_loss: 0.1703 - val_acc: 0.9430
+Epoch 14/100
+240/242 [============================>.] - ETA: 0s - loss: 0.1456 - acc: 0.9516
+Epoch 14: val_loss did not improve from 0.17030
+242/242 [==============================] - 5s 19ms/step - loss: 0.1457 - acc: 0.9515 - val_loss: 0.1706 - val_acc: 0.9439
+Epoch 15/100
+240/242 [============================>.] - ETA: 0s - loss: 0.1441 - acc: 0.9528
+Epoch 15: val_loss improved from 0.17030 to 0.17029, saving model to avg-word2vec-mort_icu-best_model.hdf5
+242/242 [==============================] - 5s 20ms/step - loss: 0.1440 - acc: 0.9528 - val_loss: 0.1703 - val_acc: 0.9435
+Epoch 16/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1445 - acc: 0.9520
+Epoch 16: val_loss did not improve from 0.17029
+242/242 [==============================] - 5s 19ms/step - loss: 0.1445 - acc: 0.9519 - val_loss: 0.1704 - val_acc: 0.9448
+Epoch 17/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1430 - acc: 0.9528
+Epoch 17: val_loss did not improve from 0.17029
+242/242 [==============================] - 5s 20ms/step - loss: 0.1429 - acc: 0.9528 - val_loss: 0.1707 - val_acc: 0.9439
+Epoch 18/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1410 - acc: 0.9536
+Epoch 18: val_loss did not improve from 0.17029
+242/242 [==============================] - 5s 19ms/step - loss: 0.1412 - acc: 0.9535 - val_loss: 0.1706 - val_acc: 0.9453
+Epoch 19/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1421 - acc: 0.9520
+Epoch 19: val_loss did not improve from 0.17029
+242/242 [==============================] - 5s 19ms/step - loss: 0.1421 - acc: 0.9520 - val_loss: 0.1704 - val_acc: 0.9448
+Epoch 20/100
+239/242 [============================>.] - ETA: 0s - loss: 0.1408 - acc: 0.9527
+Epoch 20: val_loss did not improve from 0.17029
+242/242 [==============================] - 4s 19ms/step - loss: 0.1411 - acc: 0.9525 - val_loss: 0.1705 - val_acc: 0.9444
+138/138 [==============================] - 1s 4ms/step
+0.891799382576284 0.5272383235591925 0.941042567721375 0.4332603938730853
+Embedding:  fasttext
+=============================
+Iteration number:  1
+Problem type:  mort_hosp
+__________________
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of batches seen.
+Epoch 1/100
+239/242 [============================>.] - ETA: 0s - loss: 0.2966 - acc: 0.9027
+Epoch 1: val_loss improved from inf to 0.25116, saving model to avg-fasttext-mort_hosp-best_model.hdf5
+242/242 [==============================] - 6s 18ms/step - loss: 0.2964 - acc: 0.9027 - val_loss: 0.2512 - val_acc: 0.9143
+Epoch 2/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2528 - acc: 0.9132
+Epoch 2: val_loss improved from 0.25116 to 0.24342, saving model to avg-fasttext-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.2528 - acc: 0.9132 - val_loss: 0.2434 - val_acc: 0.9166
+Epoch 3/100
+240/242 [============================>.] - ETA: 0s - loss: 0.2410 - acc: 0.9165
+Epoch 3: val_loss improved from 0.24342 to 0.24044, saving model to avg-fasttext-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.2412 - acc: 0.9163 - val_loss: 0.2404 - val_acc: 0.9170
+Epoch 4/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2319 - acc: 0.9202
+Epoch 4: val_loss improved from 0.24044 to 0.23925, saving model to avg-fasttext-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 20ms/step - loss: 0.2319 - acc: 0.9201 - val_loss: 0.2393 - val_acc: 0.9179
+Epoch 5/100
+240/242 [============================>.] - ETA: 0s - loss: 0.2271 - acc: 0.9207
+Epoch 5: val_loss improved from 0.23925 to 0.23874, saving model to avg-fasttext-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.2269 - acc: 0.9207 - val_loss: 0.2387 - val_acc: 0.9184
+Epoch 6/100
+239/242 [============================>.] - ETA: 0s - loss: 0.2234 - acc: 0.9227
+Epoch 6: val_loss improved from 0.23874 to 0.23603, saving model to avg-fasttext-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.2232 - acc: 0.9229 - val_loss: 0.2360 - val_acc: 0.9188
+Epoch 7/100
+240/242 [============================>.] - ETA: 0s - loss: 0.2189 - acc: 0.9242
+Epoch 7: val_loss did not improve from 0.23603
+242/242 [==============================] - 5s 19ms/step - loss: 0.2190 - acc: 0.9242 - val_loss: 0.2365 - val_acc: 0.9193
+Epoch 8/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2174 - acc: 0.9245
+Epoch 8: val_loss improved from 0.23603 to 0.23563, saving model to avg-fasttext-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.2174 - acc: 0.9245 - val_loss: 0.2356 - val_acc: 0.9184
+Epoch 9/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2158 - acc: 0.9252
+Epoch 9: val_loss improved from 0.23563 to 0.23534, saving model to avg-fasttext-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.2157 - acc: 0.9253 - val_loss: 0.2353 - val_acc: 0.9188
+Epoch 10/100
+239/242 [============================>.] - ETA: 0s - loss: 0.2136 - acc: 0.9249
+Epoch 10: val_loss improved from 0.23534 to 0.23526, saving model to avg-fasttext-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.2130 - acc: 0.9254 - val_loss: 0.2353 - val_acc: 0.9175
+Epoch 11/100
+240/242 [============================>.] - ETA: 0s - loss: 0.2125 - acc: 0.9260
+Epoch 11: val_loss did not improve from 0.23526
+242/242 [==============================] - 5s 20ms/step - loss: 0.2122 - acc: 0.9264 - val_loss: 0.2355 - val_acc: 0.9161
+Epoch 12/100
+239/242 [============================>.] - ETA: 0s - loss: 0.2107 - acc: 0.9265
+Epoch 12: val_loss improved from 0.23526 to 0.23450, saving model to avg-fasttext-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.2107 - acc: 0.9263 - val_loss: 0.2345 - val_acc: 0.9166
+Epoch 13/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2081 - acc: 0.9263
+Epoch 13: val_loss did not improve from 0.23450
+242/242 [==============================] - 5s 20ms/step - loss: 0.2080 - acc: 0.9264 - val_loss: 0.2347 - val_acc: 0.9156
+Epoch 14/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2073 - acc: 0.9275
+Epoch 14: val_loss improved from 0.23450 to 0.23392, saving model to avg-fasttext-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.2073 - acc: 0.9275 - val_loss: 0.2339 - val_acc: 0.9170
+Epoch 15/100
+240/242 [============================>.] - ETA: 0s - loss: 0.2055 - acc: 0.9266
+Epoch 15: val_loss did not improve from 0.23392
+242/242 [==============================] - 5s 21ms/step - loss: 0.2060 - acc: 0.9266 - val_loss: 0.2346 - val_acc: 0.9188
+Epoch 16/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2061 - acc: 0.9284
+Epoch 16: val_loss did not improve from 0.23392
+242/242 [==============================] - 5s 19ms/step - loss: 0.2061 - acc: 0.9284 - val_loss: 0.2342 - val_acc: 0.9143
+Epoch 17/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2042 - acc: 0.9276
+Epoch 17: val_loss improved from 0.23392 to 0.23346, saving model to avg-fasttext-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 21ms/step - loss: 0.2041 - acc: 0.9277 - val_loss: 0.2335 - val_acc: 0.9197
+Epoch 18/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2039 - acc: 0.9280
+Epoch 18: val_loss did not improve from 0.23346
+242/242 [==============================] - 5s 19ms/step - loss: 0.2038 - acc: 0.9281 - val_loss: 0.2337 - val_acc: 0.9175
+Epoch 19/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2027 - acc: 0.9282
+Epoch 19: val_loss did not improve from 0.23346
+242/242 [==============================] - 5s 20ms/step - loss: 0.2026 - acc: 0.9282 - val_loss: 0.2336 - val_acc: 0.9175
+Epoch 20/100
+240/242 [============================>.] - ETA: 0s - loss: 0.2010 - acc: 0.9288
+Epoch 20: val_loss improved from 0.23346 to 0.23331, saving model to avg-fasttext-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.2010 - acc: 0.9289 - val_loss: 0.2333 - val_acc: 0.9170
+Epoch 21/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2019 - acc: 0.9286
+Epoch 21: val_loss improved from 0.23331 to 0.23326, saving model to avg-fasttext-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.2018 - acc: 0.9286 - val_loss: 0.2333 - val_acc: 0.9179
+Epoch 22/100
+240/242 [============================>.] - ETA: 0s - loss: 0.2005 - acc: 0.9286
+Epoch 22: val_loss did not improve from 0.23326
+242/242 [==============================] - 5s 19ms/step - loss: 0.2003 - acc: 0.9288 - val_loss: 0.2337 - val_acc: 0.9161
+Epoch 23/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2010 - acc: 0.9286
+Epoch 23: val_loss improved from 0.23326 to 0.23319, saving model to avg-fasttext-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.2008 - acc: 0.9286 - val_loss: 0.2332 - val_acc: 0.9170
+Epoch 24/100
+240/242 [============================>.] - ETA: 0s - loss: 0.2003 - acc: 0.9306
+Epoch 24: val_loss improved from 0.23319 to 0.23297, saving model to avg-fasttext-mort_hosp-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.2000 - acc: 0.9308 - val_loss: 0.2330 - val_acc: 0.9179
+Epoch 25/100
+240/242 [============================>.] - ETA: 0s - loss: 0.1989 - acc: 0.9283
+Epoch 25: val_loss did not improve from 0.23297
+242/242 [==============================] - 5s 19ms/step - loss: 0.1989 - acc: 0.9284 - val_loss: 0.2333 - val_acc: 0.9161
+Epoch 26/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1972 - acc: 0.9314
+Epoch 26: val_loss did not improve from 0.23297
+242/242 [==============================] - 5s 19ms/step - loss: 0.1973 - acc: 0.9314 - val_loss: 0.2333 - val_acc: 0.9179
+Epoch 27/100
+239/242 [============================>.] - ETA: 0s - loss: 0.1976 - acc: 0.9298
+Epoch 27: val_loss did not improve from 0.23297
+242/242 [==============================] - 4s 19ms/step - loss: 0.1981 - acc: 0.9296 - val_loss: 0.2334 - val_acc: 0.9156
+Epoch 28/100
+240/242 [============================>.] - ETA: 0s - loss: 0.1976 - acc: 0.9305
+Epoch 28: val_loss did not improve from 0.23297
+242/242 [==============================] - 5s 19ms/step - loss: 0.1974 - acc: 0.9306 - val_loss: 0.2334 - val_acc: 0.9175
+Epoch 29/100
+239/242 [============================>.] - ETA: 0s - loss: 0.1966 - acc: 0.9311
+Epoch 29: val_loss did not improve from 0.23297
+242/242 [==============================] - 5s 19ms/step - loss: 0.1967 - acc: 0.9311 - val_loss: 0.2333 - val_acc: 0.9161
+138/138 [==============================] - 1s 4ms/step
+0.8822491150186176 0.5828216467478863 0.9180514454814478 0.4857142857142857
+Problem type:  mort_icu
+__________________
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of batches seen.
+Epoch 1/100
+239/242 [============================>.] - ETA: 0s - loss: 0.2277 - acc: 0.9321
+Epoch 1: val_loss improved from inf to 0.18287, saving model to avg-fasttext-mort_icu-best_model.hdf5
+242/242 [==============================] - 6s 18ms/step - loss: 0.2279 - acc: 0.9318 - val_loss: 0.1829 - val_acc: 0.9412
+Epoch 2/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1872 - acc: 0.9406
+Epoch 2: val_loss improved from 0.18287 to 0.17811, saving model to avg-fasttext-mort_icu-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.1872 - acc: 0.9406 - val_loss: 0.1781 - val_acc: 0.9407
+Epoch 3/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1768 - acc: 0.9440
+Epoch 3: val_loss improved from 0.17811 to 0.17509, saving model to avg-fasttext-mort_icu-best_model.hdf5
+242/242 [==============================] - 5s 20ms/step - loss: 0.1767 - acc: 0.9440 - val_loss: 0.1751 - val_acc: 0.9421
+Epoch 4/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1710 - acc: 0.9446
+Epoch 4: val_loss improved from 0.17509 to 0.17292, saving model to avg-fasttext-mort_icu-best_model.hdf5
+242/242 [==============================] - 5s 21ms/step - loss: 0.1709 - acc: 0.9446 - val_loss: 0.1729 - val_acc: 0.9416
+Epoch 5/100
+239/242 [============================>.] - ETA: 0s - loss: 0.1664 - acc: 0.9447
+Epoch 5: val_loss improved from 0.17292 to 0.17260, saving model to avg-fasttext-mort_icu-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.1662 - acc: 0.9449 - val_loss: 0.1726 - val_acc: 0.9430
+Epoch 6/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1632 - acc: 0.9471
+Epoch 6: val_loss improved from 0.17260 to 0.17216, saving model to avg-fasttext-mort_icu-best_model.hdf5
+242/242 [==============================] - 5s 21ms/step - loss: 0.1631 - acc: 0.9471 - val_loss: 0.1722 - val_acc: 0.9435
+Epoch 7/100
+239/242 [============================>.] - ETA: 0s - loss: 0.1599 - acc: 0.9463
+Epoch 7: val_loss improved from 0.17216 to 0.17112, saving model to avg-fasttext-mort_icu-best_model.hdf5
+242/242 [==============================] - 4s 18ms/step - loss: 0.1600 - acc: 0.9465 - val_loss: 0.1711 - val_acc: 0.9435
+Epoch 8/100
+239/242 [============================>.] - ETA: 0s - loss: 0.1565 - acc: 0.9489
+Epoch 8: val_loss improved from 0.17112 to 0.17098, saving model to avg-fasttext-mort_icu-best_model.hdf5
+242/242 [==============================] - 5s 20ms/step - loss: 0.1567 - acc: 0.9488 - val_loss: 0.1710 - val_acc: 0.9435
+Epoch 9/100
+240/242 [============================>.] - ETA: 0s - loss: 0.1538 - acc: 0.9492
+Epoch 9: val_loss improved from 0.17098 to 0.17033, saving model to avg-fasttext-mort_icu-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.1544 - acc: 0.9491 - val_loss: 0.1703 - val_acc: 0.9425
+Epoch 10/100
+239/242 [============================>.] - ETA: 0s - loss: 0.1546 - acc: 0.9495
+Epoch 10: val_loss did not improve from 0.17033
+242/242 [==============================] - 5s 20ms/step - loss: 0.1544 - acc: 0.9495 - val_loss: 0.1706 - val_acc: 0.9435
+Epoch 11/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1524 - acc: 0.9500
+Epoch 11: val_loss improved from 0.17033 to 0.17007, saving model to avg-fasttext-mort_icu-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.1525 - acc: 0.9499 - val_loss: 0.1701 - val_acc: 0.9430
+Epoch 12/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1507 - acc: 0.9509
+Epoch 12: val_loss improved from 0.17007 to 0.17000, saving model to avg-fasttext-mort_icu-best_model.hdf5
+242/242 [==============================] - 5s 19ms/step - loss: 0.1506 - acc: 0.9510 - val_loss: 0.1700 - val_acc: 0.9430
+Epoch 13/100
+242/242 [==============================] - ETA: 0s - loss: 0.1496 - acc: 0.9516
+Epoch 13: val_loss did not improve from 0.17000
+242/242 [==============================] - 5s 19ms/step - loss: 0.1496 - acc: 0.9516 - val_loss: 0.1702 - val_acc: 0.9439
+Epoch 14/100
+240/242 [============================>.] - ETA: 0s - loss: 0.1481 - acc: 0.9518
+Epoch 14: val_loss did not improve from 0.17000
+242/242 [==============================] - 5s 19ms/step - loss: 0.1485 - acc: 0.9516 - val_loss: 0.1701 - val_acc: 0.9435
+Epoch 15/100
+240/242 [============================>.] - ETA: 0s - loss: 0.1463 - acc: 0.9512
+Epoch 15: val_loss did not improve from 0.17000
+242/242 [==============================] - 5s 19ms/step - loss: 0.1464 - acc: 0.9512 - val_loss: 0.1700 - val_acc: 0.9435
+Epoch 16/100
+239/242 [============================>.] - ETA: 0s - loss: 0.1470 - acc: 0.9515
+Epoch 16: val_loss did not improve from 0.17000
+242/242 [==============================] - 5s 19ms/step - loss: 0.1469 - acc: 0.9516 - val_loss: 0.1702 - val_acc: 0.9439
+Epoch 17/100
+240/242 [============================>.] - ETA: 0s - loss: 0.1458 - acc: 0.9516
+Epoch 17: val_loss did not improve from 0.17000
+242/242 [==============================] - 5s 20ms/step - loss: 0.1455 - acc: 0.9516 - val_loss: 0.1701 - val_acc: 0.9439
+138/138 [==============================] - 1s 4ms/step
+0.8896577623777527 0.5295193151047947 0.9417254723423628 0.452991452991453
+Hidden unit:  256
+Embedding:  word2vec
+=============================
+Iteration number:  1
+Problem type:  mort_hosp
+__________________
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of batches seen.
+Epoch 1/100
+242/242 [==============================] - ETA: 0s - loss: 0.2851 - acc: 0.9024
+Epoch 1: val_loss improved from inf to 0.24235, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 12s 45ms/step - loss: 0.2851 - acc: 0.9024 - val_loss: 0.2424 - val_acc: 0.9170
+Epoch 2/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2396 - acc: 0.9174
+Epoch 2: val_loss improved from 0.24235 to 0.23638, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 10s 43ms/step - loss: 0.2398 - acc: 0.9174 - val_loss: 0.2364 - val_acc: 0.9143
+Epoch 3/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2273 - acc: 0.9199
+Epoch 3: val_loss did not improve from 0.23638
+242/242 [==============================] - 10s 43ms/step - loss: 0.2271 - acc: 0.9200 - val_loss: 0.2370 - val_acc: 0.9147
+Epoch 4/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2212 - acc: 0.9215
+Epoch 4: val_loss did not improve from 0.23638
+242/242 [==============================] - 10s 43ms/step - loss: 0.2210 - acc: 0.9216 - val_loss: 0.2376 - val_acc: 0.9138
+Epoch 5/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2144 - acc: 0.9241
+Epoch 5: val_loss did not improve from 0.23638
+242/242 [==============================] - 10s 43ms/step - loss: 0.2146 - acc: 0.9240 - val_loss: 0.2377 - val_acc: 0.9124
+Epoch 6/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2098 - acc: 0.9264
+Epoch 6: val_loss improved from 0.23638 to 0.23606, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 10s 43ms/step - loss: 0.2097 - acc: 0.9265 - val_loss: 0.2361 - val_acc: 0.9152
+Epoch 7/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2079 - acc: 0.9267
+Epoch 7: val_loss improved from 0.23606 to 0.23584, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 11s 44ms/step - loss: 0.2080 - acc: 0.9267 - val_loss: 0.2358 - val_acc: 0.9134
+Epoch 8/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2045 - acc: 0.9286
+Epoch 8: val_loss did not improve from 0.23584
+242/242 [==============================] - 11s 46ms/step - loss: 0.2045 - acc: 0.9286 - val_loss: 0.2361 - val_acc: 0.9143
+Epoch 9/100
+242/242 [==============================] - ETA: 0s - loss: 0.2023 - acc: 0.9282
+Epoch 9: val_loss improved from 0.23584 to 0.23488, saving model to avg-word2vec-mort_hosp-best_model.hdf5
+242/242 [==============================] - 10s 43ms/step - loss: 0.2023 - acc: 0.9282 - val_loss: 0.2349 - val_acc: 0.9147
+Epoch 10/100
+242/242 [==============================] - ETA: 0s - loss: 0.1999 - acc: 0.9295
+Epoch 10: val_loss did not improve from 0.23488
+242/242 [==============================] - 10s 42ms/step - loss: 0.1999 - acc: 0.9295 - val_loss: 0.2356 - val_acc: 0.9134
+Epoch 11/100
+242/242 [==============================] - ETA: 0s - loss: 0.1975 - acc: 0.9304
+Epoch 11: val_loss did not improve from 0.23488
+242/242 [==============================] - 10s 43ms/step - loss: 0.1975 - acc: 0.9304 - val_loss: 0.2375 - val_acc: 0.9111
+Epoch 12/100
+242/242 [==============================] - ETA: 0s - loss: 0.1953 - acc: 0.9307
+Epoch 12: val_loss did not improve from 0.23488
+242/242 [==============================] - 12s 50ms/step - loss: 0.1953 - acc: 0.9307 - val_loss: 0.2368 - val_acc: 0.9147
+Epoch 13/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1934 - acc: 0.9315
+Epoch 13: val_loss did not improve from 0.23488
+242/242 [==============================] - 11s 46ms/step - loss: 0.1936 - acc: 0.9314 - val_loss: 0.2362 - val_acc: 0.9120
+Epoch 14/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1925 - acc: 0.9326
+Epoch 14: val_loss did not improve from 0.23488
+242/242 [==============================] - 12s 48ms/step - loss: 0.1925 - acc: 0.9326 - val_loss: 0.2374 - val_acc: 0.9129
+138/138 [==============================] - 2s 10ms/step
+0.8823004816440818 0.5809501332338837 0.9169132711131346 0.46559297218155193
+Problem type:  mort_icu
+__________________
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of batches seen.
+Epoch 1/100
+242/242 [==============================] - ETA: 0s - loss: 0.2114 - acc: 0.9368
+Epoch 1: val_loss improved from inf to 0.17474, saving model to avg-word2vec-mort_icu-best_model.hdf5
+242/242 [==============================] - 15s 54ms/step - loss: 0.2114 - acc: 0.9368 - val_loss: 0.1747 - val_acc: 0.9439
+Epoch 2/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1751 - acc: 0.9449
+Epoch 2: val_loss improved from 0.17474 to 0.16895, saving model to avg-word2vec-mort_icu-best_model.hdf5
+242/242 [==============================] - 13s 54ms/step - loss: 0.1753 - acc: 0.9449 - val_loss: 0.1690 - val_acc: 0.9453
+Epoch 3/100
+242/242 [==============================] - ETA: 0s - loss: 0.1642 - acc: 0.9483
+Epoch 3: val_loss did not improve from 0.16895
+242/242 [==============================] - 12s 51ms/step - loss: 0.1642 - acc: 0.9483 - val_loss: 0.1697 - val_acc: 0.9430
+Epoch 4/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1573 - acc: 0.9498
+Epoch 4: val_loss improved from 0.16895 to 0.16860, saving model to avg-word2vec-mort_icu-best_model.hdf5
+242/242 [==============================] - 11s 45ms/step - loss: 0.1572 - acc: 0.9499 - val_loss: 0.1686 - val_acc: 0.9462
+Epoch 5/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1534 - acc: 0.9475
+Epoch 5: val_loss did not improve from 0.16860
+242/242 [==============================] - 12s 48ms/step - loss: 0.1534 - acc: 0.9475 - val_loss: 0.1707 - val_acc: 0.9444
+Epoch 6/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1487 - acc: 0.9502
+Epoch 6: val_loss did not improve from 0.16860
+242/242 [==============================] - 11s 44ms/step - loss: 0.1486 - acc: 0.9503 - val_loss: 0.1720 - val_acc: 0.9439
+Epoch 7/100
+242/242 [==============================] - ETA: 0s - loss: 0.1452 - acc: 0.9515
+Epoch 7: val_loss did not improve from 0.16860
+242/242 [==============================] - 13s 52ms/step - loss: 0.1452 - acc: 0.9515 - val_loss: 0.1704 - val_acc: 0.9466
+Epoch 8/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1424 - acc: 0.9527
+Epoch 8: val_loss did not improve from 0.16860
+242/242 [==============================] - 14s 59ms/step - loss: 0.1427 - acc: 0.9525 - val_loss: 0.1709 - val_acc: 0.9444
+Epoch 9/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1398 - acc: 0.9531
+Epoch 9: val_loss did not improve from 0.16860
+242/242 [==============================] - 12s 48ms/step - loss: 0.1401 - acc: 0.9531 - val_loss: 0.1708 - val_acc: 0.9439
+138/138 [==============================] - 2s 10ms/step
+0.8912473864113692 0.5335865243316403 0.9428636467106761 0.4434589800443459
+Embedding:  fasttext
+=============================
+Iteration number:  1
+Problem type:  mort_hosp
+__________________
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of batches seen.
+Epoch 1/100
+242/242 [==============================] - ETA: 0s - loss: 0.2824 - acc: 0.9052
+Epoch 1: val_loss improved from inf to 0.24086, saving model to avg-fasttext-mort_hosp-best_model.hdf5
+242/242 [==============================] - 15s 53ms/step - loss: 0.2824 - acc: 0.9052 - val_loss: 0.2409 - val_acc: 0.9175
+Epoch 2/100
+242/242 [==============================] - ETA: 0s - loss: 0.2383 - acc: 0.9179
+Epoch 2: val_loss improved from 0.24086 to 0.23523, saving model to avg-fasttext-mort_hosp-best_model.hdf5
+242/242 [==============================] - 12s 51ms/step - loss: 0.2383 - acc: 0.9179 - val_loss: 0.2352 - val_acc: 0.9152
+Epoch 3/100
+242/242 [==============================] - ETA: 0s - loss: 0.2276 - acc: 0.9210
+Epoch 3: val_loss did not improve from 0.23523
+242/242 [==============================] - 11s 45ms/step - loss: 0.2276 - acc: 0.9210 - val_loss: 0.2364 - val_acc: 0.9120
+Epoch 4/100
+242/242 [==============================] - ETA: 0s - loss: 0.2194 - acc: 0.9238
+Epoch 4: val_loss improved from 0.23523 to 0.23511, saving model to avg-fasttext-mort_hosp-best_model.hdf5
+242/242 [==============================] - 12s 51ms/step - loss: 0.2194 - acc: 0.9238 - val_loss: 0.2351 - val_acc: 0.9166
+Epoch 5/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2153 - acc: 0.9243
+Epoch 5: val_loss did not improve from 0.23511
+242/242 [==============================] - 11s 47ms/step - loss: 0.2153 - acc: 0.9243 - val_loss: 0.2378 - val_acc: 0.9143
+Epoch 6/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2106 - acc: 0.9255
+Epoch 6: val_loss improved from 0.23511 to 0.23397, saving model to avg-fasttext-mort_hosp-best_model.hdf5
+242/242 [==============================] - 10s 42ms/step - loss: 0.2108 - acc: 0.9254 - val_loss: 0.2340 - val_acc: 0.9166
+Epoch 7/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2068 - acc: 0.9262
+Epoch 7: val_loss improved from 0.23397 to 0.23358, saving model to avg-fasttext-mort_hosp-best_model.hdf5
+242/242 [==============================] - 12s 49ms/step - loss: 0.2067 - acc: 0.9263 - val_loss: 0.2336 - val_acc: 0.9161
+Epoch 8/100
+241/242 [============================>.] - ETA: 0s - loss: 0.2040 - acc: 0.9268
+Epoch 8: val_loss did not improve from 0.23358
+242/242 [==============================] - 11s 46ms/step - loss: 0.2039 - acc: 0.9268 - val_loss: 0.2342 - val_acc: 0.9143
+Epoch 9/100
+242/242 [==============================] - ETA: 0s - loss: 0.2014 - acc: 0.9278
+Epoch 9: val_loss did not improve from 0.23358
+242/242 [==============================] - 11s 45ms/step - loss: 0.2014 - acc: 0.9278 - val_loss: 0.2343 - val_acc: 0.9143
+Epoch 10/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1995 - acc: 0.9280
+Epoch 10: val_loss did not improve from 0.23358
+242/242 [==============================] - 11s 44ms/step - loss: 0.1996 - acc: 0.9280 - val_loss: 0.2348 - val_acc: 0.9120
+Epoch 11/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1977 - acc: 0.9289
+Epoch 11: val_loss did not improve from 0.23358
+242/242 [==============================] - 11s 44ms/step - loss: 0.1978 - acc: 0.9289 - val_loss: 0.2365 - val_acc: 0.9134
+Epoch 12/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1958 - acc: 0.9293
+Epoch 12: val_loss did not improve from 0.23358
+242/242 [==============================] - 10s 43ms/step - loss: 0.1957 - acc: 0.9293 - val_loss: 0.2357 - val_acc: 0.9166
+138/138 [==============================] - 2s 9ms/step
+0.8820747963641171 0.5860902966273012 0.9189619849760984 0.4702380952380953
+Problem type:  mort_icu
+__________________
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of batches seen.
+Epoch 1/100
+242/242 [==============================] - ETA: 0s - loss: 0.2108 - acc: 0.9374
+Epoch 1: val_loss improved from inf to 0.18053, saving model to avg-fasttext-mort_icu-best_model.hdf5
+242/242 [==============================] - 13s 45ms/step - loss: 0.2108 - acc: 0.9374 - val_loss: 0.1805 - val_acc: 0.9444
+Epoch 2/100
+242/242 [==============================] - ETA: 0s - loss: 0.1766 - acc: 0.9435
+Epoch 2: val_loss improved from 0.18053 to 0.17418, saving model to avg-fasttext-mort_icu-best_model.hdf5
+242/242 [==============================] - 11s 44ms/step - loss: 0.1766 - acc: 0.9435 - val_loss: 0.1742 - val_acc: 0.9435
+Epoch 3/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1645 - acc: 0.9474
+Epoch 3: val_loss improved from 0.17418 to 0.17402, saving model to avg-fasttext-mort_icu-best_model.hdf5
+242/242 [==============================] - 11s 44ms/step - loss: 0.1647 - acc: 0.9473 - val_loss: 0.1740 - val_acc: 0.9435
+Epoch 4/100
+242/242 [==============================] - ETA: 0s - loss: 0.1586 - acc: 0.9492
+Epoch 4: val_loss improved from 0.17402 to 0.17142, saving model to avg-fasttext-mort_icu-best_model.hdf5
+242/242 [==============================] - 11s 44ms/step - loss: 0.1586 - acc: 0.9492 - val_loss: 0.1714 - val_acc: 0.9421
+Epoch 5/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1540 - acc: 0.9499
+Epoch 5: val_loss did not improve from 0.17142
+242/242 [==============================] - 11s 44ms/step - loss: 0.1540 - acc: 0.9499 - val_loss: 0.1723 - val_acc: 0.9444
+Epoch 6/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1508 - acc: 0.9514
+Epoch 6: val_loss did not improve from 0.17142
+242/242 [==============================] - 11s 44ms/step - loss: 0.1508 - acc: 0.9514 - val_loss: 0.1719 - val_acc: 0.9439
+Epoch 7/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1466 - acc: 0.9509
+Epoch 7: val_loss did not improve from 0.17142
+242/242 [==============================] - 11s 44ms/step - loss: 0.1466 - acc: 0.9509 - val_loss: 0.1729 - val_acc: 0.9430
+Epoch 8/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1442 - acc: 0.9518
+Epoch 8: val_loss did not improve from 0.17142
+242/242 [==============================] - 11s 44ms/step - loss: 0.1441 - acc: 0.9518 - val_loss: 0.1718 - val_acc: 0.9425
+Epoch 9/100
+241/242 [============================>.] - ETA: 0s - loss: 0.1416 - acc: 0.9529
+Epoch 9: val_loss did not improve from 0.17142
+242/242 [==============================] - 10s 43ms/step - loss: 0.1417 - acc: 0.9529 - val_loss: 0.1729 - val_acc: 0.9439
+138/138 [==============================] - 2s 9ms/step
+0.8896725967867108 0.5342498504497342 0.943546551331664 0.4632034632034632
