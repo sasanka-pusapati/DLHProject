@@ -3,7 +3,13 @@ ConvolutionMedicalNer/.DS_Store
 ConvolutionMedicalNer/.env/
 ConvolutionMedicalNer/.idea/
 ConvolutionMedicalNer/.ipynb_checkpoints/
+ConvolutionMedicalNer/data/
+ConvolutionMedicalNer/embeddings/
+
+
 
 
 ConvolutionMedicalNer/ablationStudy/.DS_Store
 ConvolutionMedicalNer/ablationStudy/.idea
+ConvolutionMedicalNer/ablationStudy/data/
+ConvolutionMedicalNer/ablationStudy/embeddings/
