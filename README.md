@@ -1,6 +1,6 @@
 # CS598 Deep Learning For Health Care Project
 
-**Citation:** Batuhan Bardak, Mehmet Tan. mproving Clinical Outcome Predictions Using Convolution over Medical Entities with Multimodal Learning.
+**Citation:** Batuhan Bardak, Mehmet Tan. Improving Clinical Outcome Predictions Using Convolution over Medical Entities with Multimodal Learning.
 https://doi.org/10.48550/arXiv.2011.12349
 
 **Original Paper Repo:** - https://github.com/tanlab/ConvolutionMedicalNer
